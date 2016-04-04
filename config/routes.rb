@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  get 'friend/index'
+
+  get 'friend/show'
+
+  get 'time_table/index'
+
+  get 'time_table/show'
+
+  get 'time_table/index'
+
+  get 'time_table/show'
+
+  get 'time_table/update'
+
+  get 'time_table/destroy'
+
   root to: "home#index"
   get 'home/index'
   get 'home/show'
@@ -14,6 +30,22 @@ Rails.application.routes.draw do
   end
 end
 #Rails.application.routes.draw do
+  get 'friend/index'
+
+  get 'friend/show'
+
+  get 'time_table/index'
+
+  get 'time_table/show'
+
+  get 'time_table/index'
+
+  get 'time_table/show'
+
+  get 'time_table/update'
+
+  get 'time_table/destroy'
+
 #   root to: "home#index"
 #   get 'home/index'
 
