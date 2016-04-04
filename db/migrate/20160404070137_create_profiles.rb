@@ -5,6 +5,7 @@ class CreateProfiles < ActiveRecord::Migration
       t.boolean :published
       t.integer :entered_in
       t.integer :major
+      t.integer :user_id
 
       t.timestamps
     end
